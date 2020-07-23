@@ -1,0 +1,54 @@
+.nav{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  left: 100px;
+  top: -50px;
+
+}
+body{
+  background-color:#2F3038;
+  overflow: hidden;
+}
+h2{
+ position: relative;
+    color: white;
+    justify-content: center;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 60px;
+    top: -50px;
+    text-decoration: none;
+    font-weight: 20px;
+    font-size: small;
+}
+h2{
+  font: weight 20px;
+  }
+h1{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.pictures{
+ position: relative;
+ left: 900px;
+ top: 200;
+}
+.Cover01{
+height: 200px;
+}
+.Cover02{
+height: 200px;
+}
+.Cover03{
+height: 200px;
+}
+.Cover4{
+  height: 200px;
+  width: 255px;
+}

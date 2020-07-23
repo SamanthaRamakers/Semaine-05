@@ -1,0 +1,123 @@
+body{
+  background-color: #2F3038;
+  overflow: hidden;
+}
+.first-titles-container{
+  display: flex;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+H2{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 10px;
+  font-size: small;
+  left: 100px;
+}
+.first-titles-container{
+  display: flex;
+  align-items: center;
+}
+.first-titles-container a{
+  margin: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+.header-title{
+  color: white;
+  text-decoration: none;
+  justify-content:center;
+  align-items: center;
+  margin:5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+.Sentence{
+position: relative;
+justify-content: center;
+align-items: center;
+left: 900px;
+top:150px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+}
+.btn{
+ position: relative;
+  top:100px;
+  left:-385px;
+}
+.Women1{
+  position: absolute;
+  top: 110px;
+  left: 120px;
+  z-index: -999;
+}
+.Women2{
+  position: absolute;
+  top: 150px;
+  left:20px;
+}
+.Women3{
+  position: absolute;
+  top: 180px;
+  left:-80px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+}
+h1{
+position: absolute;
+left: 125px;
+top: 35px;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circle2{
+  background-color: rgba(77, 83, 237, 0.16);
+  position: absolute;
+  width:227px;
+  height:227px;
+  left:950px;
+  top:200px;
+  border-radius: 200px;
+}
+.circle3{
+  background-colo;
+  position: absolute;
+  width: 463px;
+  height:463px;
+  left:303px;
+  top:66px;
+  border-radius: 100%;
+}
+.circle4{
+  background-color:#7911561c;
+  position: absolute;
+  width: 200px;
+  height:200px;
+  left:848px;
+  top:286px;
+  border-radius: 100%;
+}
+.circle5{
+  background-color:rgba(121, 17, 86, 0.2);
+  position: absolute;
+  width: 200px;
+  height:200px;
+  left:886px;
+  top:181px;
+  border-radius: 100%;
+}
+.contact{
+}
+
+
+
+
+

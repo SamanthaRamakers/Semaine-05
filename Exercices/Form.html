@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css" />
+  </head>
+  <body>
+    <form name="newsletter">
+      <input
+        id="focus"
+        type="text"
+        placeholder="Nom"
+        value=""
+        tabindex="1"
+        required
+      />
+      <input id="focus" type="text" placeholder="Prénom" value="test" />
+      <input id="focus" type="text" placeholder="Age" value="12" autofocus />
+      <button type="submit">Send me</button>
+    </form>
+    <input type="text" class="text" />
+    <input type="button" value="Don't click here" />
+    <textarea name="textarea" id="message" cols="30" rows="5"></textarea>
+    <select name="movies" id="movies-select">
+      <option value="">--Choisis ton film préféré--</option>
+      <option value="Seven">Sev7n</option>
+      <option value="dragme">Drag Me To Hell</option>
+      <option value="batman">The Dark Knight</option>
+      <option value="Parasite">Parasite</option>
+    </select>
+    <select name="movies" id="movies-select">
+      <optgroup label="thriller">
+        <option value="Seven">Sev7n</option>
+        <option value="Parasite">Parasite</option>
+      </optgroup>
+      <optgroup label="horreur">
+        <option value="dragme">Drag Me To Hell</option>
+        <option value="ring">Ringu</option>
+      </optgroup>
+      <optgroup label="action">
+        <option value="spiderman">Spiderman: Far from home</option>
+        <option value="batman">The Dark Knight</option>
+      </optgroup>
+    </select>
+    <form>
+      <fieldset>
+        <legend>Choisissez votre plat préféré</legend>
+        <input class="restaurant" type="radio" id="pizza" name="plat" />
+        <label for="pizza">Pizza</label>
+        <input type="radio" id="pasta" name="plat" />
+        <label for="pasta">Pâtes</label>
+        <input type="radio" id="fries" name="plat" />
+        <label for="fries">Frites</label>
+      </fieldset>
+    </form>
+  </body>
+</html>

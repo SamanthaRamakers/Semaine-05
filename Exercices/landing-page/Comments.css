@@ -1,0 +1,23 @@
+.corps{
+  background-color:#2F3038;
+}
+h1{
+  display: flex;
+}
+.flex-container{
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.item{
+	margin:0;
+    display : inherit;
+	padding:10px;
+	width:100px;
+	height:100px;
+	-webkit-align-items: center;
+	-ms-flex-align:center;
+	align-items: center;
+  }
+  .item p{width:100%; text-align:center; color:#fff;}
+  #direction .item{flex-wrap:wrap;}
